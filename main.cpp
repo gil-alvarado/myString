@@ -2,7 +2,8 @@
 
 /*
   hello from sublime text
-  
+  dont mind me, just practicing git from cmd
+
   refrain from using the STD library
 
   g++ main.cpp myString.cxx -o main
