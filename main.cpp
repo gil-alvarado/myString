@@ -1,6 +1,8 @@
 #define _SCL_SECURE_NO_WARNINGS
 
 /*
+  hello from sublime text
+  
   refrain from using the STD library
 
   g++ main.cpp myString.cxx -o main
