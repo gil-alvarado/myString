@@ -34,7 +34,7 @@ namespace notstd
 		const char *cPtr = charPtrIn;//tempPtr has same value as charPtrIn
 
 			//reaching the end of cPtr
-		while (*(cPtr + currLength) != NULL)
+		while (*(cPtr + currLength) != 0)//NULL)
 			++currLength;//increment currLength from length of cPtr AND currentLength
 
 		if (currLength == 0)
@@ -232,7 +232,7 @@ namespace notstd
 	{
 		char *tempPtr = new char[currLength + 1]();
 		std::copy(dataPtr, dataPtr + currLength, tempPtr);//source, length, copy to
-		tempPtr[currLength] = NULL;
+		tempPtr[currLength] = 0;//NULL;
 		return tempPtr;
 	}
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
